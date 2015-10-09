@@ -154,9 +154,13 @@ retreenlock 更多特性:
 	}
 
 
+
 上述代码中，使用了如下代码
 	
-	final Condition con=loc.newCondition();
+	    final Condition con=loc.newCondition();
+
+
+
 Condition 我习惯把它称作条件变量，或者说通知变量，它和object对应的wait(),notify(),notifyAll()类似。但是也有更多的特性。
 con.await()  让当前线程阻塞在con上，con.signalAll()。所以我们在实际应用中可以创建多个Condition来操作不同的线程，比如说生产者和消费者。
 以下代码取自arrayblockQueue中的put和get方法。
