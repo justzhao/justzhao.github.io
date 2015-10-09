@@ -1,6 +1,6 @@
 ---
 layout: post
-title: java面试题 三个线程打印ABC
+title: JAVA retreenlock condition
 category: 技术
 tags: JAVA retreenlock condition
 
