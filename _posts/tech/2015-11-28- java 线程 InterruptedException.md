@@ -100,8 +100,3 @@ tags: JAVA InterruptedException
 ### 理解
 
  个人理解，Java InterruptedException在多线程中主要在于优雅的告诉线程应该如何退出，以及遇到线程阻塞的清空下如何退出。
-
-	
-
-
-
