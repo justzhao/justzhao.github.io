@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JAVA CountDownLatch
-category: 技术
+category: 技术基础
 tags: JAVA CountDownLatch
 
 ---

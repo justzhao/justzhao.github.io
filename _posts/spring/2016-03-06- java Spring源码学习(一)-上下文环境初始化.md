@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Spring源码学习(一) 上下文环境初始化
-category: 技术
+title: Spring 源码学习(一) 上下文环境初始化
+category: Spring
 tags: JAVA Spring  上下文环境初始化
 
 ---

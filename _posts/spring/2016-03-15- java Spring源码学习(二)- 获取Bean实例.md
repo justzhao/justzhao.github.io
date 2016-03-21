@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring 源码学习(二) 获取Bean实例化
-category: 技术
+category: Spring
 tags: JAVA Spring  获取Bean实例化
 
 ---
