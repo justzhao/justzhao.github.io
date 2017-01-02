@@ -6,11 +6,11 @@ tags: Java Condition 原理
 description:  Condition 源码
 ---
 
-#### Condition
+### Condition
 
 Condition 称为 条件变量，Condition 将 Object 监视器方法（wait、notify 和 notifyAll）改进， 配合Lock 对象使用，实现多线程之间的同步。先看如下方法。自jdk 1.5被引入，主要是用于多线程直接同步操作资源。
 
-#### 解析
+### 解析
 
 Condition接口如下
 
@@ -391,13 +391,15 @@ Condition 实例化主要是由他的子类ConditionObject 。它是AQS的一个
         }
     }
 
-#### 原理
+### 原理
 通过源码我们可以看到ConditionObject 内部也维护了一个队列，我们叫做Condition队列，用来维护阻塞在Condition的线程。也就是在Lock内部其实维护了两个队列，另外一个是AQS队列。
-在lock操作之后，如果线程被阻塞了就会被加入AQS队列尾部，如果没有被lock阻塞，在运行到await操作时候被阻塞就会加入到Condition队列中并且释放锁，当对应节点被signal唤醒后，会把节点从Condition对象中取出，加入到AQS队列中。如下示意图
+在lock操作之后，如果线程被阻塞了就会被加入AQS队列尾部，如果没有被lock阻塞，在运行到await操作时候被阻塞就会加入到Condition队列中并且释放锁，当对应节点被signal唤醒后，会把节点从Condition对象中取出，加入到AQS队列中。
+如下示意图
+
 ![](http://7x00ae.com1.z0.glb.clouddn.com/Condition%E9%98%9F%E5%88%97%E5%9B%BE.png)
 
 
-#### 总结
+### 总结
 Condition线程同步操作主要还是通过AQS队列和Condition队列，Condition队列维护着等会信号的线程节点。所以要深刻理解Condition还是其他线程同步操作，都需要认真理解AQS队列。
 
 
