@@ -1,3 +1,11 @@
+---
+layout: post
+title: Java ConcurrentHashMap
+category: 技术基础
+tags: Java ConcurrentHashMap 原理
+description:  ConcurrentHashMap 源码
+---
+
 #### 简介
 1. ConcurrentHashMap  和Hashmap的区分主要在于它是线程安全的，采用锁分段技术。它使用了多个锁来控制对hash表的不同部分进行的修改。ConcurrentHashMap内部使用段(Segment)来表示这些不同的部分，每个Segment 就是一个hash table[] 数组，都会有自己的锁，这样可以实现多个线程在不同的segment上修改操作。
 
