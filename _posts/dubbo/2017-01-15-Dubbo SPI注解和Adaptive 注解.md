@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title:Dubbo SPI机制
+title: Dubbo SPI机制
 category: dubbo
 tags: Dubbo SPI机制
 
