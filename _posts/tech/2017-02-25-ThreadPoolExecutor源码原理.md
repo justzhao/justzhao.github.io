@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ThreadPool
+title: Java 线程池
 category: 技术基础
-tags: Java  线程池
+tags: Java ThreadPool  
 description:  线程池
 
 ---
