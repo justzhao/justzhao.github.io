@@ -1,11 +1,9 @@
-
 ---
 layout: post
 title: Java Synchronized 原理
 category: 技术基础
 tags: Java Synchronized 同步
 description:  Synchronized 
-
 ---
 
 #### Synchronized
