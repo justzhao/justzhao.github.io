@@ -1,13 +1,9 @@
-http://www.infoq.com/cn/articles/ConcurrentLinkedQueue
-
-http://www.jianshu.com/p/7322ef0ee6c9
-
-http://www.cnblogs.com/sunshine-2015/p/6067709.html
-
-https://www.ibm.com/developerworks/cn/java/j-lo-concurrent/
-http://dev.dafan.info/detail/259202?p=
-
-http://www.jianshu.com/p/7816c1361439
+layout: post
+title: ConcurrentLinkedQueue 非阻塞队列的实现
+category: 技术基础
+tags: 非阻塞队列
+description:非阻塞队列，ConcurrentLinkedQueue
+---
 
 Java 提供了线程安全的阻塞队列和非阻塞队列，其中JDK中实现的非阻塞队列是ConcurrentLinkedQueue.
 
