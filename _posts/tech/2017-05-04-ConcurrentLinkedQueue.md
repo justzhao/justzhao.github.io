@@ -1,3 +1,4 @@
+---
 layout: post
 title: ConcurrentLinkedQueue 非阻塞队列的实现
 category: 技术基础
