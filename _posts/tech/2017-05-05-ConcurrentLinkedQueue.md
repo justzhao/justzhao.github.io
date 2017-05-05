@@ -1,11 +1,11 @@
 ---
-layout:post
-title: ConcurrentLinkedQueue的实现
+layout: post
+title: 非阻塞队列分析
 category: 技术基础
-tags: 非阻塞 cas
-description:队列
+tags: 非阻塞, cas
+description:非阻塞队列
 ---
-
+#### 简介
 Java 提供了线程安全的阻塞队列和非阻塞队列，其中JDK中实现的非阻塞队列是ConcurrentLinkedQueue.
 
 队列中元素按FIFO原则进行排序．使用链表的实现的无界队列，
