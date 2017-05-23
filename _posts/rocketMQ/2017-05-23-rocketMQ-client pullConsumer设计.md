@@ -254,3 +254,4 @@ PullResult pullResult =consumer.pullBlockIfNotFound(mq, null, getMessageQueueOff
 
 #### 总结
 
+rocketMQ 中的pullConsumer,需要客户端维护每个队列的消费进度(offset)。pull 消费的好处是客户端能消费多少就拉取多少。
