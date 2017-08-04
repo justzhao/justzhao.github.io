@@ -2,7 +2,7 @@
 layout: post
 title: Spring  Resource接口
 category: Spring
-tags: JAVA Spring Resource接口  略模式 
+tags: JAVA Spring Resource接口  策略模式 
 
 ---
 
