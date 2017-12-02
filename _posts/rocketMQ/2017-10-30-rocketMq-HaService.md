@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  HAservice
+title:  rocketMq-HaService
 category: rocketMQ
 tags: master，slave
 ---
