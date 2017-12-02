@@ -371,8 +371,3 @@ ReferenceQueue数据结构如下
 
 
 
-   
-    
-    
-参考资料：
-https://www.zhihu.com/question/49760047
