@@ -1,7 +1,7 @@
 ---
 layout: post
 title: zookeeper伪集群
-category:zookeeper
+category: zookeeper
 tags: zk,集群
 description: zk集群
 --- 
