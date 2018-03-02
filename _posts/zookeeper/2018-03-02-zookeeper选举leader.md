@@ -1,4 +1,10 @@
-
+---
+layout: post
+title: zookeeper 选举leader
+category: zookeeper
+tags: zk,选举
+description: zookeeper 选举
+--- 
 
 #### 选举算法
 zk 的Leader选算法有三种，AuthFastLeaderElection，LeaderElection，FastLeaderElection，
